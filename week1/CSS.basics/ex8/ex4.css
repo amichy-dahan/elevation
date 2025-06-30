@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: #ffef5d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h1{
+  text-align: center;
+  color: #7CFC90;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.prog{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+th{
+    
+  color: #7CFC90;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  background-color: rgb(45, 44, 42);
+   border: 0.1px solid white;
+}
+
+td:first-child{
+    color: #ffc32c;
+     font-family: 'Courier New', Courier, monospace;
+}
+td{
+    padding: 10px;
+    border: 0.1px solid white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(52, 49, 49);
+}
+table{
+     border-collapse: collapse;
+     border-left: 2px solid #7CFC90;
+     border-top: 2px solid #7CFC90;
+     border-bottom:2px solid #7CFC90;
+      border-right:2px solid #7CFC90;
+}
+
+tr.java>td{
+    background-color: rgb(71, 70, 69);
+}
+
+
