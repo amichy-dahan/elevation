@@ -1,29 +1,29 @@
 .parent{
-      background-color: #7f3abc;
-      width: 400px;
-      height: 200px;
-      margin:auto;
-      position: relative;
-      border-radius: 3px;
+background-color: #7f3abc;
+width: 400px;
+height: 200px;
+margin:auto;
+position: relative;
+border-radius: 3px;
 }
 
 .text{
 
-    position: absolute;
-    top: 0;
-    left:10px; 
-     font-weight: bold;
-       font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+top: 0;
+left:10px; 
+font-weight: bold;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .text1{
 
-    position: absolute;
-     bottom: 0;
-     right:10px; 
-      font-weight: bold;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+bottom: 0;
+right:10px; 
+font-weight: bold;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .bar1{
 padding: 13px;

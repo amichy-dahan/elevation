@@ -1,14 +1,12 @@
 body{
 
-      height: 100vh;              /* גובה של כל המסך */
-  margin: 0;                  /* ביטול מרווחים רגילים */
-  display: flex;              /* הפעלת Flexbox */
-  justify-content: center;    /* מרכוז אופקי */
+  height: 100vh;             
+  margin: 0;                  
+  display: flex;              
+  justify-content: center;   
   align-items: center;  
 }
-
 .container{
-
     width: 300px;
     height: 200px;
     background-color: rgb(229, 29, 29);
@@ -17,12 +15,9 @@ body{
     border-top-right-radius: 3px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
-    position: relative;
-    
+    position: relative; 
 }
-
 .c2{
-
     width: 80px;
     height: 90px;
      position: absolute;
@@ -41,15 +36,7 @@ body{
     background-color: rgb(189, 189, 189);
     border-top-left-radius:5px ;
     border-top-right-radius:5px ;
-   
 }
-
-
-
-
-
-
-
 .white{
 
     width: 140px;
