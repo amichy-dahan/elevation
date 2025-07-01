@@ -1,17 +1,19 @@
-body{
-    background-color: blue;
-    margin: 0;
+*{
+    box-sizing: border-box;
 }
 
 .parent{
     position: relative;
-   
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
 }
 
 .child{
     background-color: rgb(255, 42, 4);
     padding: 8px;
-    height: 800px;
+    height: 200px;
     left: 30px;
     position: absolute;
 }
@@ -19,6 +21,6 @@ body{
     background-color: rgb(255, 30, 0);
     position: absolute;
     padding: 8px;
-    width: 100%;
+    width: 200px;
     top: 30px;
 }
