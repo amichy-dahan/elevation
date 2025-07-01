@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+      max-width:90%;            
+           
+      margin: 0 auto;          
+      position: relative;
+    }
+
+    .pic{
+       width: 100%;
+    }
+    div.absolute {
+    position: absolute;
+    border: solid rgb(22, 20, 16);
+    top: 0;
+    right: 0;
+}
+ div.absolute1 {
+    position: absolute;
+    border: solid rgb(22, 20, 16);
+    top:0;
+    left:0;
+}
+ div.absolute2 {
+    position: absolute;
+    border:solid rgb(22, 20, 16);
+    bottom:5px;
+    right:0;
+}
+ div.absolute3 {
+    position: absolute;
+    border: solid rgb(22, 20, 16);
+    bottom:5px;
+    left:0;
+}
+div > *{
+    font-size: 30px;
+}
+
+
+
+

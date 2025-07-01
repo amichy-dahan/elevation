@@ -1,0 +1,85 @@
+.parent{
+      background-color: #7f3abc;
+      width: 400px;
+      height: 200px;
+      margin:auto;
+      position: relative;
+      border-radius: 3px;
+}
+
+.text{
+
+    position: absolute;
+    top: 0;
+    left:10px; 
+     font-weight: bold;
+       font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.text1{
+
+    position: absolute;
+     bottom: 0;
+     right:10px; 
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.bar1{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 1px;
+position: absolute;
+bottom: 5px;
+left: 10px;
+}
+ 
+.bar2{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 70px;
+position: absolute;
+bottom: 5px;
+left: 55px;
+}
+
+.bar3{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 130px;
+position: absolute;
+bottom: 5px;
+left: 100px;
+}
+
+.bar4{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 120px;
+position: absolute;
+bottom: 5px;
+left: 145px;
+}
+
+.bar5{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 100px;
+position: absolute;
+bottom: 5px;
+left: 190px;
+}
+.bar6{
+padding: 13px;
+background-color: rgb(152, 174, 174);
+width: 0;
+height: 50px;
+position: absolute;
+bottom: 5px;
+left: 235px;
+}
