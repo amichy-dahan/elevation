@@ -1,7 +1,4 @@
-header,footer,aside,main{
 
-
-}
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +36,7 @@ background: linear-gradient(to right, #6a85f1, #7f53ac);
  nav{
     padding: 20px;
     background-color: #f8f7f7;
-    width:150px;
+    width:170px;
  }
 .content{
 padding: 40PX;
@@ -48,8 +45,9 @@ width: 100%;
 }
 .sidebar{
 background-color:#f8f7f7;
-width: 150px;
+width: 170px;
 padding: 20px;
+
 }
 .lor{
  margin-top: 25px;
@@ -135,9 +133,11 @@ border: 1px solid #f0ecec;
     font-size: 11px;
     padding: 7px;
     
+    
 }
 .pside{
 font-size: 10.5px;
 padding: 7px;
 margin-top: -8px;
+color: rgb(77, 77, 75);
 }
