@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  height:100px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0px 3px 24px 3px rgba(199,199,199,0.97);
+  border-radius: 10px;
+
+}
+
+/* Mobile first (<= 600px) */
+.col {
+  width: 100%;
+  position: relative;
+}
+.absulote{
+    position: absolute;
+    left:10px;
+    bottom: -4px;
+    
+    color: rgba(255, 255, 255, 0.700); /* רקע לבן עם שקיפות של 50% */
+
+}
+
+/* Tablet 601px to 900px */
+@media (min-width: 601px) {
+  .col {
+    width: 50%;
+  }
+  .container{
+width: 400px;
+display: flex;
+flex-direction: column;
+
+}
+
+}
+
+/* Desktop 901px  */
+@media (min-width: 901px) {
+  .col {
+    width: 33%;
+  }
+.container{
+width: 530px;
+display: flex;
+flex-direction: column;
+
+    }
+}
