@@ -1,0 +1,187 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255)
+  
+}
+
+header{
+color: white;
+padding: 15px;
+background: linear-gradient(to right, #6a85f1, #7f53ac);
+
+}
+ main{
+     display: flex;
+    flex-wrap: wrap;
+  
+ }
+  nav{
+    padding: 20px;
+    background-color: #f8f7f7;
+    width:15%;
+ }
+ .title{
+    font-size: 20px
+}
+.content{
+padding: 40PX;
+width: 70%;
+    
+}
+.sidebar{
+background-color:#f8f7f7;
+width: 15%;
+padding: 20px;
+
+
+}
+
+
+
+ @media (max-width:600px){
+    
+     main{
+
+        display:inline;
+     }
+  
+nav{
+    padding: 20px;
+    background-color: #f8f7f7;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .title{
+    text-align: center;
+    font-size: 20px
+    
+}
+.content{
+padding: 40PX;
+width: 100%;
+text-align: center;
+    
+}
+.sidebar{
+background-color:#f8f7f7;
+width: 100%;
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+ }
+ 
+ footer{
+    position: sticky;
+    height: 65px;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    
+ }
+ 
+
+
+.lor{
+ margin-top: 25px;
+ 
+}
+
+.box{
+margin-top: 10px;
+width: 100%;
+
+border-radius: 10px;
+background-color: #f8f7f7;
+border: 1px solid #f0ecec;
+
+}
+.navTitle{
+
+    padding-left: 1px;
+    padding-bottom: 15px;
+}
+
+.p1{
+    display: block;
+    font-size: 12px;
+    padding-left: 1px;
+    padding-bottom: 22px;
+    color: rgb(77, 77, 75);
+    text-decoration: none;
+}
+.key{
+
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+.text{
+font-size: 13px;
+padding: 10px;
+padding-bottom: 30px;
+padding-left: 20px;
+   
+    
+}
+
+.parF{
+
+margin-top: 15px;
+font-size: 10PX;
+}
+.option{
+margin-left: 10px;
+color: rgb(192, 192, 192);
+text-decoration: none;
+}
+
+.boxside1{
+width: 90px;
+height: 130px;
+background-color: white;
+margin-top:15px;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+.boxside2{
+width: 90px;
+height: 130px;
+background-color: white;
+margin-top:30px;
+border: 1px solid #ccc;
+border-radius: 6px;
+    
+}
+.textside{
+    font-size: 11px;
+    padding: 7px;
+    
+    
+}
+.pside{
+font-size: 10.5px;
+padding: 7px;
+margin-top: -8px;
+color: rgb(77, 77, 75);
+}
