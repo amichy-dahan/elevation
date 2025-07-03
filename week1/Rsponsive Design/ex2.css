@@ -1,0 +1,41 @@
+.container{
+   text-align: center;
+    border: 2px solid rgb(0, 153, 255);
+    
+}
+
+  .heading{
+    width: 36px;
+    background-color: aqua;
+    }
+    .paragraph{
+      background-color: aqua;
+    width: 16px;
+    }
+
+@media (min-width:900px) {
+
+    .heading{
+    width: 48px;
+    background-color: rgb(250, 234, 12);
+    }
+    .paragraph{
+    background-color: rgb(250, 234, 12);
+    width: 18px;
+    }
+}
+
+
+
+@media (max-width:600px) {
+
+    .heading{
+    width: 24px;
+    background-color: rgb(8, 233, 0);
+    }
+    .paragraph{
+
+    width: 14px;
+     background-color: rgb(8, 233, 0);
+    }
+}
